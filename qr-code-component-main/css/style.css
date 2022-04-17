@@ -1,0 +1,35 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+}
+
+h1 {
+  font-size: 20px;
+  line-height: 1.5;
+}
+p {
+  padding: 10px 0 0 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.barcode-container {
+  background-color: white;
+  width: 300px;
+  height: 500px;
+  padding: 10px;
+  border-radius: 30px;
+  margin: 250px auto;
+  box-shadow: 10px 5px 30px hsl(220, 15%, 55%);
+}
+
+.qrcode-img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.barcode-text {
+  padding: 20px;
+}
